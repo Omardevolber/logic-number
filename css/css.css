@@ -1,0 +1,187 @@
+.shortcut-icon {
+    border-radius: 50%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3498db, #e91e63);
+    /* التدرج بين الأزرق والوردي */
+    padding: 20px;
+}
+
+.app-image {
+    border: #000 solid 3px;
+    border-radius: 50px;
+}
+
+.container {
+    background: linear-gradient(to left, #3498db, #e91e63);
+    /* التدرج بين الأزرق والوردي */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.conversionType {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #000 solid 3px;
+    margin-left: 10px;
+}
+
+input,
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.inputValue {
+    color: #000;
+    font-weight: bold;
+}
+
+.output {
+    font-weight: bold;
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #3498db, #e91e63);
+    border: #000 solid 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    transition: all 0.6s ease;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+button:hover {
+    background: #3498db;
+    letter-spacing: 6px;
+}
+
+.output-decimal {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.output-decimal-sub {
+    font-size: 29px;
+    vertical-align: sub;
+}
+
+.output-binary {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.output-binary-sub {
+    font-size: 29px;
+    vertical-align: sub;
+}
+
+.output-octal {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.output-octal-sub {
+    font-size: 29px;
+    vertical-align: sub;
+}
+
+.output-hexadecimal {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.output-hexadecimal-sub {
+    font-size: 29px;
+    vertical-align: sub;
+}
+
+.app-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.footerbody {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.footerbody article {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 80%;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    input,
+    select {
+        width: calc(100% - 20px);
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .conversionType {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .output-decimal,
+    .output-binary,
+    .output-octal,
+    .output-hexadecimal {
+        font-size: 20px;
+    }
+
+    .output-decimal-sub,
+    .output-binary-sub,
+    .output-octal-sub,
+    .output-hexadecimal-sub {
+        font-size: 25px;
+    }
+}
